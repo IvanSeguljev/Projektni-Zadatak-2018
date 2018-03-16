@@ -1,0 +1,73 @@
+﻿@model Projektni_centar_zadatak.Models.KontaktOsoba
+@if ((int?)Session["PravoPristupa"] == 1)
+{
+    Response.Redirect("~/Home/Index");
+}
+@{
+
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DodajKontaktOsobu</title>
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+
+    @using (Html.BeginForm("DodavanjeKontaktOsobe", "Kontakti", Model, FormMethod.Post))
+    {
+        
+
+        <div class="form-horizontal">
+            <h4>KontaktOsoba</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Ime, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Ime, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Ime, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Prezime, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Prezime, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Prezime, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.RadnoMesto, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.RadnoMesto, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.RadnoMesto, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Dodaj kontakt osobu" class="btn btn-default" style="background-color: #f4f2f2" />
+                </div>
+            </div>
+        </div>
+    }
+
+    @using (Html.BeginForm("MenadzmentKontakt", "Preduzeca", new { id = (int)Model.IDpreduzeca }))
+    {
+        <input type="submit" value="Otkazi dodavanje" class="btn btn-default" style="background-color: #f4f2f2" />
+    }
+</body>
+</html>

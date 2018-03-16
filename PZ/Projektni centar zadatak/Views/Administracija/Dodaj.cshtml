@@ -1,0 +1,96 @@
+﻿@model Projektni_centar_zadatak.Models.LoginUser
+
+@{
+
+    if ((int)Session["PravoPristupa"] != 3)
+    {
+        Response.Redirect("~/login/index");
+    }
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Dodaj</title>
+    <style>
+        #Forma {
+            position: relative;
+            left: 30%;
+        }
+    </style>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+
+
+    @if (Model != null)
+    {
+        @Html.Raw(TempData["msg"]);
+    }
+
+    @using (Html.BeginForm("DodajNovog", "Administracija", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal" id="Forma">
+            <h1>Dodaj novog korisnika</h1>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                    <script src="~/Scripts/OtkrijSifru.js"></script>
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.PravoPristupa, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.PravoPristupa, new { htmlAttributes = new { min = 1, max = 3 } })
+
+                    @Html.ValidationMessageFor(model => model.PravoPristupa, "", new { @class = "text-danger" })
+                    <hr />
+                    <p><b>Pravo pristupa:</b> </p>
+                    <p>1 - Korisnik sa pravom citanja</p>
+                    <p>2 - Korisnik sa pravom citanja i unosa</p>
+                    <p>3 - Administrator</p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Dodaj novog korisnika" class="btn btn-default" onclick="return confirm('Molimo potvrdite dodavanje korisnika');" style="background-color: #f4f2f2" />
+                    <hr />
+                    <div class="btn btn-default" style="background-color: #f4f2f2; color:black">
+                        @Html.ActionLink("Povratak na spisak korisnika", "VratiKorisnike", "Administracija")
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    }
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>

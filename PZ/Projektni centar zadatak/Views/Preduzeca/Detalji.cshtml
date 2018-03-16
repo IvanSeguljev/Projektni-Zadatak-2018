@@ -1,0 +1,140 @@
+﻿@model Projektni_centar_zadatak.Models.Preduzece
+
+@{
+
+   
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detalji</title>
+    <script type="text/javascript">
+        function print_page() {
+            var ButtonControl = document.getElementById("btnprint");
+            ButtonControl.style.visibility = "hidden";
+            var btnControl = document.getElementById("btnVrati");
+            btnControl.style.visibility = "hidden";
+            window.print();
+
+
+            btnControl.style.visibility = "visible";
+            ButtonControl.style.visibility = "visible";
+        }
+
+    </script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div style="position:relative;left:5%">
+        <h2>Preduzece: @Model.NazivPreduzeca</h2>
+        <hr />
+        <dl class="dl-horizontal">
+
+
+
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Adresa)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Adresa)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Opstina)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Opstina)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PostanskiBR)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PostanskiBR)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.MatBR)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.MatBR)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PIB)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PIB)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.BrojRacuna)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.BrojRacuna)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.WebStranica)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.WebStranica)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.FotografijaPecata)
+            </dt>
+
+            <dd>
+                @if (Model.FotografijaPecata != null)
+                {
+                <img src="@Url.Content(Model.FotografijaPecata)" height="250" width="250"/>
+                }
+                else
+                {
+                    <p>Slika ne postoji.</p>
+                }
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Beleska)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Beleska)
+            </dd>
+
+        </dl>
+        <hr />
+        <hr />
+        <p>Kontakt osobe:</p>
+        @{ Html.RenderAction("PartKontakti", (int)Model.ID);}
+        @using (Html.BeginForm("PrikaziSve", "Preduzeca"))
+        {
+        <input type="submit" id="btnVrati" value="Povratak na pregled preduzeca" class="btn btn-default" style="background-color: #f4f2f2" />
+        }
+
+        <div>
+            <input type="button" id="btnprint" value="Odstampaj formu" onclick="print_page()" class="btn btn-default" style="background-color: #f4f2f2" />
+        </div>
+    </div>
+    
+
+    
+        
+    
+</body>
+</html>

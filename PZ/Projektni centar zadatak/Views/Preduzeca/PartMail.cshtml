@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Projektni_centar_zadatak.Models.MailKontakt>
+
+<div>
+    <p>Mail adrese:</p>
+    @if(Model.Count() != 0)
+        {
+        foreach (var item in Model)
+        {
+        <p><b>@Html.DisplayFor(model => item.OznakaTip):</b> @Html.DisplayFor(model => item.Adresa)</p>
+
+        }
+    }
+    else
+    {
+        <p><b>Nema mail adresu</b></p>
+    }
+</div>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProjektniZadatakModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="KontaktOsoba">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDpreduzeca" Type="int" Nullable="false" />
+    <Property Name="Ime" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Prezime" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="RadnoMesto" Type="nvarchar" MaxLength="40" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MailKontakt">
+    <Key>
+      <PropertyRef Name="Adresa" />
+    </Key>
+    <Property Name="IDKontakt" Type="int" Nullable="false" />
+    <Property Name="OznakaTip" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Adresa" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Preduzece">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NazivPreduzeca" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Adresa" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Opstina" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="PostanskiBR" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="MatBR" Type="nvarchar" MaxLength="8" Nullable="false" />
+    <Property Name="PIB" Type="nvarchar" MaxLength="9" Nullable="false" />
+    <Property Name="BrojRacuna" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="WebStranica" Type="nvarchar" MaxLength="50" />
+    <Property Name="FotografijaPecata" Type="nvarchar(max)" />
+    <Property Name="Beleska" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TelefonKontakt">
+    <Key>
+      <PropertyRef Name="BrojTelefona" />
+    </Key>
+    <Property Name="IDKontakt" Type="int" Nullable="false" />
+    <Property Name="OznakaTip" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="BrojTelefona" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Lokal" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_KontaktOsoba_Preduzece1">
+    <End Role="Preduzece" Type="Self.Preduzece" Multiplicity="1" />
+    <End Role="KontaktOsoba" Type="Self.KontaktOsoba" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Preduzece">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KontaktOsoba">
+        <PropertyRef Name="IDpreduzeca" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MailKontakt_KontaktOsoba">
+    <End Role="KontaktOsoba" Type="Self.KontaktOsoba" Multiplicity="1" />
+    <End Role="MailKontakt" Type="Self.MailKontakt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KontaktOsoba">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MailKontakt">
+        <PropertyRef Name="IDKontakt" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TelefonKontakt_KontaktOsoba1">
+    <End Role="KontaktOsoba" Type="Self.KontaktOsoba" Multiplicity="1" />
+    <End Role="TelefonKontakt" Type="Self.TelefonKontakt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KontaktOsoba">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TelefonKontakt">
+        <PropertyRef Name="IDKontakt" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProjektniZadatakModel1StoreContainer">
+    <EntitySet Name="KontaktOsoba" EntityType="Self.KontaktOsoba" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MailKontakt" EntityType="Self.MailKontakt" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Preduzece" EntityType="Self.Preduzece" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TelefonKontakt" EntityType="Self.TelefonKontakt" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_KontaktOsoba_Preduzece1" Association="Self.FK_KontaktOsoba_Preduzece1">
+      <End Role="Preduzece" EntitySet="Preduzece" />
+      <End Role="KontaktOsoba" EntitySet="KontaktOsoba" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MailKontakt_KontaktOsoba" Association="Self.FK_MailKontakt_KontaktOsoba">
+      <End Role="KontaktOsoba" EntitySet="KontaktOsoba" />
+      <End Role="MailKontakt" EntitySet="MailKontakt" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TelefonKontakt_KontaktOsoba1" Association="Self.FK_TelefonKontakt_KontaktOsoba1">
+      <End Role="KontaktOsoba" EntitySet="KontaktOsoba" />
+      <End Role="TelefonKontakt" EntitySet="TelefonKontakt" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

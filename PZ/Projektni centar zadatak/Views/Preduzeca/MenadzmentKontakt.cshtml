@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Projektni_centar_zadatak.Models.KontaktOsoba>
+@if ((int?)Session["PravoPristupa"] == 1)
+{
+    Response.Redirect("~/Home/Index");
+}
+@{
+
+
+    int IDpred = (int)TempData["ID"];
+    Layout = null;
+}
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MenadzmentKontakt</title>
+</head>
+
+<body>
+    <h1>Menadzment kontakt osoba preduzeca: @TempData["NazivPreduzeca"]</h1>
+    @using (Html.BeginForm("PrikaziSve", "Preduzeca"))
+    {
+        <input type="submit" value="Povratak na listu preduzeca" class="btn btn-default" style="background-color: #f4f2f2" />
+    }
+    <hr />
+
+    @using (Html.BeginForm("DodajKontaktOsobu", "Kontakti", new { id = IDpred }))
+    {
+        <input type="submit" value="Dodaj novu kontakt osobu" class="btn btn-default" style="background-color: #f4f2f2" />
+    }
+    <hr />
+    <table class="table">
+        <tr style="background-color: #f4f2f2">
+            <th>
+                @Html.DisplayNameFor(model => model.Ime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prezime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RadnoMesto)
+            </th>
+
+            <th>Mail adrese</th>
+            <th>Telefonski brojevi</th>
+            <th></th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Prezime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RadnoMesto)
+                </td>
+
+                <td>
+                    @using (Html.BeginForm("DodajMail", "Kontakti", item, FormMethod.Post))
+                    {
+                        <input type="submit" value="Dodaj novu mail adresu" class="btn btn-default" style="background-color: #f4f2f2" />
+                    }
+                    @{ Html.RenderAction("MailLista", "Kontakti", item);}
+
+                </td>
+
+                <td>
+                    @using (Html.BeginForm("DodajBroj", "Kontakti", item, FormMethod.Post))
+                    {
+                        <input type="submit" value="Dodaj novi Broj telefona" class="btn btn-default" style="background-color: #f4f2f2" />
+                    }
+                    @{ Html.RenderAction("TelefonLista", "Kontakti", item);}
+                </td>
+                <td>
+                    @using (Html.BeginForm("ObrisiKontaktOsobu", "Kontakti", item, FormMethod.Post))
+                    {
+                        <input type="submit" value="Obrisi kontakt osobu" onclick="return confirm('Molimo potvrdite brisanje kontakta: @item.Ime')" class="btn btn-default" style="background-color: #f4f2f2" />
+                    }
+                </td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

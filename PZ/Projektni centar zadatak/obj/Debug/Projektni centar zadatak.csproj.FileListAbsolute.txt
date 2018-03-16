@@ -1,0 +1,322 @@
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\ApplicationInsights.config
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Projektni centar zadatak.dll.config
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Projektni centar zadatak.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Projektni centar zadatak.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Antlr3.Runtime.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\EntityFramework.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\EntityFramework.SqlServer.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.AI.Web.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.ApplicationInsights.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Newtonsoft.Json.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\System.Web.Helpers.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\System.Web.Mvc.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\System.Web.Optimization.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\System.Web.Razor.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\System.Web.WebPages.Deployment.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\System.Web.WebPages.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\System.Web.WebPages.Razor.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\WebGrease.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\EntityFramework.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\EntityFramework.SqlServer.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\System.Web.Helpers.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\System.Web.Mvc.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\System.Web.Optimization.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\System.Web.Razor.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\System.Web.WebPages.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\System.Web.WebPages.Deployment.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\System.Web.WebPages.Razor.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Antlr3.Runtime.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Newtonsoft.Json.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.ApplicationInsights.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\bin\Microsoft.AI.Web.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.csprojResolveAssemblyReference.cache
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.csproj.CoreCompileInputs.cache
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\ApplicationInsights.config
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Projektni centar zadatak.dll.config
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Projektni centar zadatak.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Projektni centar zadatak.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Antlr3.Runtime.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\EntityFramework.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\EntityFramework.SqlServer.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.AI.Web.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.ApplicationInsights.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Newtonsoft.Json.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\System.Web.Helpers.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\System.Web.Mvc.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\System.Web.Optimization.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\System.Web.Razor.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\System.Web.WebPages.Deployment.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\System.Web.WebPages.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\System.Web.WebPages.Razor.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\WebGrease.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\EntityFramework.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\EntityFramework.SqlServer.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\System.Web.Helpers.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\System.Web.Mvc.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\System.Web.Optimization.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\System.Web.Razor.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\System.Web.WebPages.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\System.Web.WebPages.Deployment.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\System.Web.WebPages.Razor.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Antlr3.Runtime.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Newtonsoft.Json.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.ApplicationInsights.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\bin\Microsoft.AI.Web.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.csprojResolveAssemblyReference.cache
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.csproj.CoreCompileInputs.cache
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\Projektni centar zadatak Dodavanje nove\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\ApplicationInsights.config
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Projektni centar zadatak.dll.config
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Projektni centar zadatak.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Projektni centar zadatak.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Antlr3.Runtime.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\EntityFramework.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\EntityFramework.SqlServer.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.AI.Web.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.ApplicationInsights.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Newtonsoft.Json.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\System.Web.Helpers.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\System.Web.Mvc.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\System.Web.Optimization.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\System.Web.Razor.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\System.Web.WebPages.Deployment.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\System.Web.WebPages.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\System.Web.WebPages.Razor.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\WebGrease.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\EntityFramework.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\EntityFramework.SqlServer.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\System.Web.Helpers.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\System.Web.Mvc.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\System.Web.Optimization.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\System.Web.Razor.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\System.Web.WebPages.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\System.Web.WebPages.Deployment.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\System.Web.WebPages.Razor.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Antlr3.Runtime.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Newtonsoft.Json.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.ApplicationInsights.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\bin\Microsoft.AI.Web.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.csprojResolveAssemblyReference.cache
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.csproj.CoreCompileInputs.cache
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PCZmenjanje data tipa\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\ApplicationInsights.config
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Projektni centar zadatak.dll.config
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Projektni centar zadatak.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Projektni centar zadatak.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Antlr3.Runtime.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\EntityFramework.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\EntityFramework.SqlServer.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.AI.Web.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.ApplicationInsights.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Newtonsoft.Json.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\System.Web.Helpers.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\System.Web.Mvc.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\System.Web.Optimization.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\System.Web.Razor.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\System.Web.WebPages.Deployment.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\System.Web.WebPages.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\System.Web.WebPages.Razor.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\WebGrease.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\EntityFramework.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\EntityFramework.SqlServer.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\System.Web.Helpers.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\System.Web.Mvc.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\System.Web.Optimization.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\System.Web.Razor.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\System.Web.WebPages.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\System.Web.WebPages.Deployment.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\System.Web.WebPages.Razor.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Antlr3.Runtime.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Newtonsoft.Json.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.ApplicationInsights.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\bin\Microsoft.AI.Web.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.csprojResolveAssemblyReference.cache
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.csproj.CoreCompileInputs.cache
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\ApplicationInsights.config
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Projektni centar zadatak.dll.config
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Projektni centar zadatak.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Projektni centar zadatak.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Antlr3.Runtime.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\EntityFramework.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\EntityFramework.SqlServer.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.AI.Web.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.ApplicationInsights.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Newtonsoft.Json.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\System.Web.Helpers.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\System.Web.Mvc.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\System.Web.Optimization.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\System.Web.Razor.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\System.Web.WebPages.Deployment.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\System.Web.WebPages.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\System.Web.WebPages.Razor.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\WebGrease.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\EntityFramework.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\EntityFramework.SqlServer.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\System.Web.Helpers.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\System.Web.Mvc.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\System.Web.Optimization.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\System.Web.Razor.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\System.Web.WebPages.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\System.Web.WebPages.Deployment.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\System.Web.WebPages.Razor.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Antlr3.Runtime.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Newtonsoft.Json.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.ApplicationInsights.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\bin\Microsoft.AI.Web.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.csprojResolveAssemblyReference.cache
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.csproj.CoreCompileInputs.cache
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\ProjektniZadatak - Copy\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\ApplicationInsights.config
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Projektni centar zadatak.dll.config
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Projektni centar zadatak.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Projektni centar zadatak.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Antlr3.Runtime.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\EntityFramework.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\EntityFramework.SqlServer.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.AI.Web.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.ApplicationInsights.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Newtonsoft.Json.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\System.Web.Helpers.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\System.Web.Mvc.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\System.Web.Optimization.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\System.Web.Razor.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\System.Web.WebPages.Deployment.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\System.Web.WebPages.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\System.Web.WebPages.Razor.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\WebGrease.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\EntityFramework.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\EntityFramework.SqlServer.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\System.Web.Helpers.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\System.Web.Mvc.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\System.Web.Optimization.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\System.Web.Razor.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\System.Web.WebPages.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\System.Web.WebPages.Deployment.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\System.Web.WebPages.Razor.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Antlr3.Runtime.pdb
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Newtonsoft.Json.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.ApplicationInsights.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\bin\Microsoft.AI.Web.xml
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.csprojResolveAssemblyReference.cache
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.csproj.CoreCompileInputs.cache
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.dll
+C:\Users\WerfAwf\Desktop\Programi za faks\visual studio\projekti\PZ\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.pdb
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\ApplicationInsights.config
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Projektni centar zadatak.dll.config
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Projektni centar zadatak.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Projektni centar zadatak.pdb
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Antlr3.Runtime.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\EntityFramework.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\EntityFramework.SqlServer.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.AI.Web.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.ApplicationInsights.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Newtonsoft.Json.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\System.Web.Helpers.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\System.Web.Mvc.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\System.Web.Optimization.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\System.Web.Razor.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\System.Web.WebPages.Deployment.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\System.Web.WebPages.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\System.Web.WebPages.Razor.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\WebGrease.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\EntityFramework.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\EntityFramework.SqlServer.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\System.Web.Helpers.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\System.Web.Mvc.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\System.Web.Optimization.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\System.Web.Razor.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\System.Web.WebPages.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\System.Web.WebPages.Deployment.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\System.Web.WebPages.Razor.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Antlr3.Runtime.pdb
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Newtonsoft.Json.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.ApplicationInsights.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\bin\Microsoft.AI.Web.xml
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.csprojResolveAssemblyReference.cache
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.dll
+C:\Users\aleks\Desktop\PZ\Projektni centar zadatak\obj\Debug\Projektni centar zadatak.pdb

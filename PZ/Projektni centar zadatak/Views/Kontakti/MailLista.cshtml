@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Projektni_centar_zadatak.Models.MailKontakt>
+
+
+<table class="table">
+    <tr style="background-color:#f4f2f2">
+        <th>
+            @Html.DisplayNameFor(model => model.OznakaTip)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adresa)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.HiddenFor(ModelItem => item.KontaktOsoba)
+                <b>@Html.DisplayFor(modelItem => item.OznakaTip)</b>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adresa)
+            </td>
+            <td>
+                @using (Html.BeginForm("ObrisiMail", "Kontakti",item,FormMethod.Post))
+                {
+                    <input type="submit" value="Obrisi" class="btn btn-default" onclick="return confirm('Molimo potvrdite brisanje')" style="background-color: #f4f2f2" />
+                 }
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,107 @@
+﻿@model IEnumerable<Projektni_centar_zadatak.Models.Preduzece>
+
+@{
+
+    
+    Layout = Layout;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PrikaziSve</title>
+</head>
+<body>
+    
+    <h1>Pregled preduzeca</h1>
+    
+    @if ((int?)Session["PravoPristupa"] > 1)
+    {
+        using (Html.BeginForm("Dodaj", "Preduzeca", FormMethod.Post))
+        {
+            <input type="submit" value="Dodaj novo preduzece" class="btn btn-default" style="background-color: #f4f2f2" />
+        }
+    }
+    <hr />
+        <table class="table">
+            <tr style="background-color:#f4f2f2">
+                <th>
+                    @Html.DisplayNameFor(model => model.NazivPreduzeca)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.PIB)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.Beleska)
+                </th>
+                <th></th>
+                @if ((int?)Session["PravoPristupa"] > 1)
+                {
+                    <th></th>
+                    <th></th>
+                }
+                @if ((int?)Session["PravoPristupa"] == 3)
+                {
+                    <th></th>
+                }
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NazivPreduzeca)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PIB)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Beleska)
+                    </td>
+                    
+
+                        @if ((int?)Session["PravoPristupa"] >1 )
+                        { <td>
+                            @using (Html.BeginForm("MenadzmentKontakt", "Preduzeca", new { id = item.ID }, FormMethod.Post))
+                            {
+                                <input type="submit" value="Menadzment Kontakt osoba" class="btn btn-default" style="background-color: #f4f2f2" />
+                            }
+                           </td>
+                           <td>
+                            @using (Html.BeginForm("IzmeniPreduzece", "Preduzeca", item, FormMethod.Post))
+                            {
+                                <input type="submit" value="Izmeni podatke o preduzecu" class="btn btn-default" style="background-color: #f4f2f2" />
+                            }
+                           </td>
+                        }
+                    
+                    <td>
+                        @using (Html.BeginForm("Detalji", "Preduzeca", new { id = item.ID }))
+                        {
+                            <input type="submit" value="Prikazi detalje" class="btn btn-default" style="background-color: #f4f2f2" />
+                        }
+                    </td>
+                    
+
+                        @if ((int?)Session["PravoPristupa"] == 3)
+                        {
+                             <td>
+                            @using (Html.BeginForm("Obrisi", "Preduzeca", new { id = item.ID }, FormMethod.Post))
+                            {
+                                <input type="submit" value="Obrisi" class="btn btn-default" onclick="return confirm('Da li ste sigurni da zelite da obrisete preduzece @item.NazivPreduzeca')" style="background-color: #f4f2f2" />
+                            } 
+                             </td>
+                        }
+                   
+                </tr>
+            }
+
+        </table>
+    </body>
+</html>

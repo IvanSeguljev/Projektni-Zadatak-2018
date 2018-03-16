@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Projektni_centar_zadatak.Models.KontaktOsoba>
+
+
+
+@if (Model.Count() != 0)
+{
+    foreach (var item in Model)
+    {
+
+
+<dl class="dl-horizontal">
+    <dt>
+        Ime:
+    </dt>
+    <dd>
+        @Html.DisplayFor(modelItem => item.Ime)
+    </dd>
+    <dt>
+        Prezime:
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(modelItem => item.Prezime)
+    </dd>
+    <dt>
+        Radno mesto:
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(modelItem => item.RadnoMesto)
+    </dd>
+
+     
+</dl>
+        Html.RenderAction("PartTelefoni",new {ID = item.ID });
+        Html.RenderAction("PartMail", new { ID = item.ID });
+        <hr />
+
+    }
+}
+else
+{
+    <p><b>Nema kontakt osoba</b></p>
+}
+
+

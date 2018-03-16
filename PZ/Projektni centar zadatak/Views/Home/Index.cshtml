@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+   
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+
+<body>
+    @if (Session["Username"] != null)
+    {
+        <h1>
+            Ulogovan kao: @Session["Username"].ToString()
+        </h1>
+    }
+    <div>
+        
+    </div>
+</body>
+</html>

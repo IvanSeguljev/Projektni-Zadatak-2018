@@ -1,0 +1,91 @@
+﻿@model  Projektni_centar_zadatak.Models.LoginUser
+@{
+    Layout = null;
+   
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <style>
+        #login-div {
+            position: absolute;
+            left: 40%;
+            top: 40%;
+            border: 5px solid #0094ff;
+            padding: 30px 30px;
+        }
+
+        .field-validation-error {
+            color: red;
+        }
+    </style>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    
+</head>
+<body>
+   
+    <div id="login-div" >
+        @using (Html.BeginForm("Authorize", "Login", FormMethod.Post))
+        {
+
+            <table>
+                <tr>
+                    <td></td>
+                    <td>Login</td>
+                </tr>
+                <tr>
+                    <td>
+                        @Html.LabelFor(model => model.Username)
+                    </td>
+                    <td>
+                        @Html.EditorFor(model => model.Username)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>@Html.ValidationMessageFor(model => model.Username)</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        @Html.LabelFor(Model => Model.Password)
+                        
+                    </td>
+                    <td>
+                        @Html.EditorFor(model => model.Password)
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>@Html.ValidationMessageFor(model => model.Password)</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <label class="field-validation-error">@Html.DisplayFor(Model => Model.LoginError)</label>
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td><input type="submit" name="name" value="Login" /></td>
+                    <td><input type="reset" name="name" value="Odustani" /></td>
+                </tr>
+            </table>
+        }
+    </div>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</body>
+</html>

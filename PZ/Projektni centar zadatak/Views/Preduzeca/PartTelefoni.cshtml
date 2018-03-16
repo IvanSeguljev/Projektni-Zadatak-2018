@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Projektni_centar_zadatak.Models.TelefonKontakt>
+
+<div>
+    <p>Telefoni:</p>
+    @{if (Model.Count() != 0)
+        {
+            foreach (var item in Model)
+            {
+                <p><b>@Html.DisplayFor(model => item.OznakaTip):</b> @Html.DisplayFor(model => item.BrojTelefona) Lokal: @Html.DisplayFor(model => item.Lokal)</p>
+
+            }
+        }
+
+        else
+        {
+                <p><b>Nema telefon</b></p>
+        }
+    }
+</div>

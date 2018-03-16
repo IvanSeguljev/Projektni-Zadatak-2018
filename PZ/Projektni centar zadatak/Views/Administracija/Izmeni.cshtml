@@ -1,0 +1,89 @@
+﻿@{
+    if ((int?)Session["PravoPristupa"] != 3)
+    {
+        Response.Redirect("~/login/index");
+    }
+    Layout = null;
+}
+@model Projektni_centar_zadatak.Models.LoginUser
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Izmeni</title>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <script src="~/Scripts/OtkrijSifru.js"></script>
+</head>
+<body>
+
+
+
+    @if (Model.greska == true)
+    {
+        @Html.Raw(TempData["msg"]);
+    }
+    @using (Html.BeginForm("SnimiIzmene", "Administracija", FormMethod.Post))
+
+
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal" style="position:relative; left:20%;">
+            <h1 style="position:relative;">Izmeni korisnika: @Model.Username</h1>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.Username)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+
+                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+
+
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.PravoPristupa, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.PravoPristupa, new { htmlAttributes = new { min = 1, max = 3 } })
+                    @Html.ValidationMessageFor(model => model.PravoPristupa, "", new { @class = "text-danger" })
+                    <hr />
+                    <p><b>Pravo pristupa:</b> </p>
+                    <p>1 - Korisnik sa pravom citanja</p>
+                    <p>2 - Korisnik sa pravom citanja i unosa</p>
+                    <p>3 - Administrator</p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Snimi izmene" class="btn btn-default" style="background-color: #f4f2f2" />
+                    <hr />
+                    <div class="btn btn-default" style="background-color: #f4f2f2; color:black">
+                        @Html.ActionLink("Povratak na spisak korisnika", "VratiKorisnike", "Administracija")
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    }
+
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</body>
+</html>

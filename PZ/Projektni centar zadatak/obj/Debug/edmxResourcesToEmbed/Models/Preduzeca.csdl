@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProjektniZadatakModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="KontaktOsoba">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDpreduzeca" Type="Int32" Nullable="false" />
+    <Property Name="Ime" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Prezime" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RadnoMesto" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="MailKontakts" Relationship="Self.FK_MailKontakt_KontaktOsoba" FromRole="KontaktOsoba" ToRole="MailKontakt" />
+    <NavigationProperty Name="TelefonKontakts" Relationship="ProjektniZadatakModel1.FK_TelefonKontakt_KontaktOsoba" FromRole="KontaktOsoba" ToRole="TelefonKontakt" />
+    <NavigationProperty Name="Preduzece" Relationship="ProjektniZadatakModel1.FK_KontaktOsoba_Preduzece1" FromRole="KontaktOsoba" ToRole="Preduzece" />
+  </EntityType>
+  <EntityType Name="MailKontakt">
+    <Key>
+      <PropertyRef Name="Adresa" />
+    </Key>
+    <Property Name="IDKontakt" Type="Int32" Nullable="false" />
+    <Property Name="OznakaTip" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Adresa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="KontaktOsoba" Relationship="Self.FK_MailKontakt_KontaktOsoba" FromRole="MailKontakt" ToRole="KontaktOsoba" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_MailKontakt_KontaktOsoba">
+    <End Role="KontaktOsoba" Type="Self.KontaktOsoba" Multiplicity="1" />
+    <End Role="MailKontakt" Type="Self.MailKontakt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KontaktOsoba">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MailKontakt">
+        <PropertyRef Name="IDKontakt" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProjektniZadatakEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="KontaktOsobas" EntityType="Self.KontaktOsoba" />
+    <EntitySet Name="MailKontakts" EntityType="Self.MailKontakt" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_MailKontakt_KontaktOsoba" Association="Self.FK_MailKontakt_KontaktOsoba">
+      <End Role="KontaktOsoba" EntitySet="KontaktOsobas" />
+      <End Role="MailKontakt" EntitySet="MailKontakts" />
+    </AssociationSet>
+    <EntitySet Name="TelefonKontakts" EntityType="ProjektniZadatakModel1.TelefonKontakt" />
+    <AssociationSet Name="FK_TelefonKontakt_KontaktOsoba" Association="ProjektniZadatakModel1.FK_TelefonKontakt_KontaktOsoba">
+      <End Role="KontaktOsoba" EntitySet="KontaktOsobas" />
+      <End Role="TelefonKontakt" EntitySet="TelefonKontakts" />
+    </AssociationSet>
+    <EntitySet Name="Preduzeces" EntityType="ProjektniZadatakModel1.Preduzece" />
+    <AssociationSet Name="FK_KontaktOsoba_Preduzece1" Association="ProjektniZadatakModel1.FK_KontaktOsoba_Preduzece1">
+      <End Role="Preduzece" EntitySet="Preduzeces" />
+      <End Role="KontaktOsoba" EntitySet="KontaktOsobas" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TelefonKontakt">
+    <Key>
+      <PropertyRef Name="BrojTelefona" />
+    </Key>
+    <Property Name="IDKontakt" Type="Int32" Nullable="false" />
+    <Property Name="OznakaTip" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="BrojTelefona" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Lokal" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="KontaktOsoba" Relationship="ProjektniZadatakModel1.FK_TelefonKontakt_KontaktOsoba" FromRole="TelefonKontakt" ToRole="KontaktOsoba" />
+  </EntityType>
+  <Association Name="FK_TelefonKontakt_KontaktOsoba">
+    <End Type="ProjektniZadatakModel1.KontaktOsoba" Role="KontaktOsoba" Multiplicity="1" />
+    <End Type="ProjektniZadatakModel1.TelefonKontakt" Role="TelefonKontakt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KontaktOsoba">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TelefonKontakt">
+        <PropertyRef Name="IDKontakt" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Preduzece">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NazivPreduzeca" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Adresa" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Opstina" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="PostanskiBR" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="MatBR" Type="String" Nullable="false" MaxLength="8" FixedLength="false" Unicode="true" />
+    <Property Name="PIB" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="true" />
+    <Property Name="BrojRacuna" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="WebStranica" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FotografijaPecata" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Beleska" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="KontaktOsobas" Relationship="ProjektniZadatakModel1.FK_KontaktOsoba_Preduzece1" FromRole="Preduzece" ToRole="KontaktOsoba" />
+  </EntityType>
+  <Association Name="FK_KontaktOsoba_Preduzece1">
+    <End Type="ProjektniZadatakModel1.Preduzece" Role="Preduzece" Multiplicity="1" />
+    <End Type="ProjektniZadatakModel1.KontaktOsoba" Role="KontaktOsoba" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Preduzece">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KontaktOsoba">
+        <PropertyRef Name="IDpreduzeca" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

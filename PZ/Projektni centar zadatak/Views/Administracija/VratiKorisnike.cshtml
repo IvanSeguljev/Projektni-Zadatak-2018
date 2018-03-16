@@ -1,0 +1,91 @@
+﻿
+
+@if((int?)Session["PravoPristupa"] != 3)
+    {
+        Response.Redirect("~/Home/Index");
+    }
+@model IEnumerable<Projektni_centar_zadatak.Models.LoginUser>
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+@{
+
+    Layout = Layout;
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Administracija korisnika</title>
+
+    
+</head>
+<body>
+    
+
+    <h1>Administracija korisnika</h1>
+    <hr />
+    
+    @using (Html.BeginForm("Dodaj", "Administracija"))
+    {
+        <input type="submit" value="Dodaj novog korisnika" class="btn btn-default" style="background-color: #f4f2f2" />
+    }
+    <hr />
+    <table class="table" id="table1" style="border-bottom:5px solid #d3d3d3; border-top:5px solid #d3d3d3;">
+        <tr style=" background-color: #f4f2f2">
+            <th>
+                @Html.DisplayNameFor(model => model.Username)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PravoPristupa)
+            </th>
+            <th></th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+
+            <tr>
+                <td>
+                    <p>@Html.DisplayFor(modelItem => item.Username)   </p>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PravoPristupa)
+                </td>
+
+                <td>
+
+                    @using (Html.BeginForm("Obrisi", "Administracija", new { id = item.Username }))
+                    {
+                        <input type="submit" value="Obrisi Korisnika" onclick="return confirm('Da li ste sigurni da zelite da obrisete korisnika: @item.Username');" class="btn btn-default" style="background-color: #f4f2f2" />
+                    }
+
+
+                </td>
+                <td>
+
+                    @using (Html.BeginForm("Izmeni", "Administracija", new { id = item.Username }))
+                    {
+                        <input type="submit" value="Izmeni korisnika" class="btn btn-default" style="background-color: #f4f2f2" />
+                    }
+
+                </td>
+
+            </tr>
+        }
+    </table>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+
+</body>
+</html>

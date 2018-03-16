@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Projektni_centar_zadatak.Models.TelefonKontakt>
+
+<table class="table">
+    <tr style="background-color:#f4f2f2">
+        
+        <th>
+            @Html.DisplayNameFor(model => model.OznakaTip)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lokal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BrojTelefona)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <b> @Html.DisplayFor(modelItem => item.OznakaTip)</b>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lokal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BrojTelefona)
+            </td>
+            <td>
+                @using (Html.BeginForm("ObrisiTelefon", "Kontakti", item,FormMethod.Post))
+                 {           
+                    <input type="submit" value="Obrisi" class="btn btn-default" onclick="return confirm('Molimo potvrdite brisanje')" style="background-color: #f4f2f2" />
+                 }
+            
+            </td>
+        </tr>
+    }
+
+</table>
