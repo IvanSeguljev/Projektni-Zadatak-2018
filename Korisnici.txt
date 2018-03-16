@@ -1,0 +1,3 @@
+Kosisnik sa pravom administracije: pravo pristupa = 3
+Kosisnik sa pravom citanja i upisivanja: pravo pristupa = 2
+Kosisnik sa pravom citanja: pravo pristupa = 1
